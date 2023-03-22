@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset='utf-8'>
+    <title>자손/후손 선택</title>
+    <style>
+        /* #header h1, h2{ color: blueviolet; }  후손선택 header안에 모든 h1을 포함*/
+         /* >는 자손선택 바로 밑에 있는 것만 포함 */
+        #header > h1{ color: tomato; }
+        #section > p{ color: teal; }
+        #header > #nav > h1{ color: violet; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>drdre</h2>
+        <h1 class="title"> loren ipsum</h1>
+        <div id="nav">
+            <h1>Navigation</h1> 
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus eius deleniti atque in vitae quo minima, animi quia? Quos voluptatum praesentium fugiat ullam accusamus distinctio quidem ipsam, asperiores delectus.</p>
+                <h1>sub Title</h1>
+            </div>
+            <h2>작은제목</h2>
+        </div>
+       
+    </div>
+    <div id="section">
+        <h1 class="title">loren ipsum</h1>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odit doloremque modi amet voluptates eveniet esse, quaerat aspernatur, id facere, officia laboriosam adipisci provident ea nisi tempora autem fuga ullam?</p>
+    </div>
+</body>
+</html>

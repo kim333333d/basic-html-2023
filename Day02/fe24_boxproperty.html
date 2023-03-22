@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>CSS 박스 영역</title>
+    <style>
+        body{ margin: 0px; padding: 0px;}
+        div{
+            width: 100px; 
+            height: 100px;
+            background-color: rgba(255, 0, 0, 0.5);
+            border: 5px solid;
+            border-color: crimson;
+            /* 위,오,아,왼 */
+            margin: 10px 0 0 30px;
+            /* margin-top: 10px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 30px; */
+            padding: 10px 50px 20px 30px;
+            /* padding-top: 10px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            padding-left: 30px; */
+        }
+         p{
+            margin: 10px;
+         }
+
+         .box{
+            color: skyblue;
+            
+            width: 500px;
+            background-color: aliceblue;
+            border-width: 2px;
+            border-color: lightskyblue;
+            border-style: dashed;
+            border-radius: 40px 40px 15px 15px;
+            
+            /* display: none; */
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>뽀로로</p>
+    </div>
+    <div class="box">
+        <h1>lorem ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>
