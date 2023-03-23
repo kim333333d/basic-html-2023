@@ -20,7 +20,7 @@ Java 개발자 과정 프론트앤드 리포지토리
 
 2일차
 
- <img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day02.png" width="300">
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day02.png" width="300">
 
 ## 3일차
 - HTML 5 학습
@@ -30,4 +30,4 @@ Java 개발자 과정 프론트앤드 리포지토리
 
 3레이아웃 3일차
 
- <img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day03.png" width="300">
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day03.png" width="300">
