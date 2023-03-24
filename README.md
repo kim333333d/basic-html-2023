@@ -40,7 +40,7 @@ Java 개발자 과정 프론트앤드 리포지토리
     - 자바스크립트 기초
 
 4일차 그리드 레이아웃 포토갤러리
-<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day04.png" width="300">
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day04-1.png" width="300">
 
 ## 5일차
 - 프론트엔드 학습
