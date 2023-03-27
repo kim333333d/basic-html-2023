@@ -44,6 +44,8 @@ Java 개발자 과정 프론트앤드 리포지토리
 
 <img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day04-1.png" width="300">
 
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day04-2.png" width="300">
+
 ## 5일차
 - 프론트엔드 학습
     - javascript 마무리
