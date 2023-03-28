@@ -54,9 +54,12 @@ Java 개발자 과정 프론트앤드 리포지토리
     - 부트트랩 앨범 예시 클로닝
     - 포트폴리오 웹사이트 만들기
 
-<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day05.png" width="300">   
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day05.png" width="600">   
 
 ## 6일차
 - 프론트엔드 학습
     - 부트스크랩 앨범 마무리
+
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day06_album_theme.png" width="700">  
+
     - 포트폴리오 웹사이트 만들기
