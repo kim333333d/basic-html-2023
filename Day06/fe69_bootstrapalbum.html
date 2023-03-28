@@ -21,9 +21,10 @@
     <script>
         $(document).ready(function(){
            
-
             $("#btnLight").addClass('active');
+
             $('img').css("border-radius", "5px 5px 0 0"); // 모든 이미지의 윗쪽테두리를 부드럽게
+
             // 테마변경
             $('#btnLight').click(function(){
                 $('html').attr('data-bs-theme', 'light');
@@ -39,7 +40,7 @@
                 $('#btnLight').removeClass('active');
                 $('#btnicon1').attr('class','bi-moon-stars-fill' );
                 // $('#btnicon1').addClass('bi-moon-stars-fill').removeClass('bi-brightness-high-fill');
-                
+               
             });
         });
     </script>
@@ -66,7 +67,7 @@
     </div>
     <!-- top 메뉴 영역 -->
     <header data-bs-theme="dark">
-        <div class="collapse text-bg-dark" id="navbarHeader">
+        <div id="navbarHeader" class="collapse text-bg-dark" >
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 py-3">
@@ -86,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="navbar bavbar-dark bg-dark shadow-sm">
+        <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container">
                 <a href="#" class="navbar-brand d-flex align-items-center">
                     <i class="bi bi-camera"></i>&nbsp; <!-- (&nbsp;) 공백 특수문자 -->
