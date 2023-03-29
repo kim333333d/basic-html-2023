@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>parallax Scrolling Web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+     <!-- 1. 부트스트렙용 css CDN 추가 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/parallax.css'>
+    <link rel="icon" href="image/ui.ico">
+    
+    <!-- jQuery 추가 -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src='script/parallax.js'></script>
+
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#" class="active"><span>Home</span></a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Content</a>
+        </nav>
+    </header>
+
+    <!-- Section 영역 -->
+    <section class="parallax">
+       
+        <img src="image/hill1.png" id="hill1"> <!--맨앞-->
+        <img src="image/hill2.png" id="hill2">
+        <img src="image/hill3.png" id="hill3">
+        <img src="image/hill4.png" id="hill4">
+        <img src="image/hill5.png" id="hill5"> 
+        <img src="image/tree.png" id="tree">
+        <h2 id="text">Parallax Website</h2>
+        <img src="image/leaf.png" id="leaf">
+        <img src="image/plant.png" id="plant"> <!--맨뒤-->
+    </section>
+    <section class="contents">
+        <h2>Parallax Scrolling Web</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, repellendus. Culpa ullam dolores ipsa velit obcaecati possimus voluptate. Dignissimos dolor molestias possimus ex labore exercitationem laboriosam, aliquam quo fuga illum commodi, id necessitatibus iste rerum itaque dolorem sunt officia? Iure, facilis nemo! Aspernatur assumenda adipisci ipsa id sapiente at, deserunt deleniti dignissimos quasi error, eaque sit nisi omnis rerum totam alias! Nemo, a quam! Et dicta magnam optio eos rem natus vel repellat architecto, voluptatem perferendis labore minima cumque! Cupiditate nesciunt ea magni labore deleniti! Et magni consequuntur beatae iusto minus quae cumque voluptatum libero necessitatibus facilis, dolorum ut accusamus incidunt illum hic, excepturi tempore! Et debitis molestias distinctio eveniet cumque voluptatem non quos voluptate. Incidunt, iure! Excepturi ducimus repudiandae dolorum illo perspiciatis doloribus, voluptas impedit dolores placeat fugit delectus quibusdam necessitatibus enim nobis quae, minima autem? Harum, perspiciatis praesentium! Maxime, eos! Asperiores iure ipsum dolores nulla, fugiat, assumenda esse officia neque facere numquam quia libero, vero ut debitis. Repudiandae sequi unde, odio obcaecati accusantium ipsum non expedita molestias esse maiores temporibus quasi nulla iste cupiditate assumenda exercitationem quae officia eos necessitatibus voluptatum adipisci magni ut. Quam id fuga rerum a voluptatibus placeat beatae, autem perspiciatis dicta sed iste dignissimos inventore vel tempora illo, eligendi non praesentium quia? Cumque nostrum debitis sit quis, delectus culpa impedit cupiditate in veritatis quod esse quae ducimus eaque voluptate molestias sunt soluta alias est. Amet deserunt accusamus eaque cumque at voluptatibus vero odit ipsa consectetur nesciunt. Minus modi illo odit error excepturi similique quo obcaecati. Esse fuga at eius nostrum ipsa maxime, dolore pariatur culpa magnam exercitationem quos nemo distinctio odio minima, nobis aliquam? Fugit rem recusandae optio pariatur doloremque? Eos iure nobis neque? Error natus, quasi modi officiis ducimus eos fugit sunt debitis quidem ad doloremque perferendis nemo minus cupiditate voluptatum laboriosam quae? <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore accusantium aspernatur a quidem enim, unde voluptatibus. Debitis incidunt aliquam delectus ea error reprehenderit deserunt repudiandae corporis cum quasi, fuga necessitatibus culpa ducimus, itaque, ullam sunt est vero perferendis ad. Repudiandae labore tempore eius ducimus, commodi quam animi dolorum consequatur iusto repellendus quae nesciunt voluptatibus porro vitae laboriosam totam perferendis doloribus? Quaerat, excepturi! Eligendi enim culpa sequi repellendus doloremque. Dicta delectus voluptas tenetur natus quos impedit quas, error quaerat, in, quam ipsam optio consequuntur magni doloremque inventore veniam. Doloremque laudantium vel assumenda, voluptatibus quos aut voluptatum. Non, vel mollitia? Neque?
+        </p>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#">Blog</a>
+            <span> | </span>
+            <a href="#">GitHub</a>
+        </nav>
+        <p>
+            <span>author : CodeHal</span><span> | </span>
+            <span>editor : KimSehyun</span><span> | </span>
+            <span>email : test102938t@gmail.com</span><span> <br>
+            <span>Copyright &copy; 2022. CodeHal. All. Rights Reserved</span>
+        </p>
+    </footer>
+     <!-- 2. 부트스트렙 용 js는 반드시 body에 위치에 있어야 한다 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+        </script>
+</body>
+</html>
