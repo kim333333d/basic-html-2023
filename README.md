@@ -73,7 +73,10 @@ Java 개발자 과정 프론트앤드 리포지토리
         - Masonry layout library
         - ImageLoaded library
         - Lightbox 구현
-
+    - Parallex Scrolling Web
+    
 7일차 핀터레스트 스타일 클로닝
 
 <img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day07_portfolio1.png" width="700">  
+
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day07_lightbox.png" width="700">  
