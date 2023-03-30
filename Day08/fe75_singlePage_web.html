@@ -57,6 +57,21 @@
             //         }
             //     });
             // });
+            $('#menu_about').click(function(){
+                $(this).addClass('active');
+                $('#menu_portfolio').removeClass('active');
+                $('#menu_signup').removeClass('active');
+            });
+            $('#menu_portfolio').click(function(){
+                $(this).addClass('active');
+                $('#menu_about').removeClass('active');
+                $('#menu_signup').removeClass('active');
+            });
+            $('#menu_signup').click(function(){
+                $(this).addClass('active');
+                $('#menu_portfolio').removeClass('active');
+                $('#menu_about').removeClass('active');
+            });
         });
     </script>
 </head>
@@ -73,9 +88,9 @@
             </button>
             <div id="navbarResponsive" class=" navbar-collapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#signup">Content</a></li>
+                    <li class="nav-item"><a id="menu_about" class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a id="menu_portfolio" class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a id="menu_signup" class="nav-link" href="#signup">Content</a></li>
                 </ul>
             </div>
         </div>
