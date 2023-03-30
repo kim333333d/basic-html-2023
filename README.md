@@ -94,4 +94,6 @@ Java 개발자 과정 프론트앤드 리포지토리
 
 <img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day08_portfolio3.png" width="700">  
 
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day08_portfolio3-01.gif" width="700">  
+
     
