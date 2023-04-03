@@ -341,3 +341,8 @@ p {
 #layoutError #layoutError_footer {
     min-width: 0;
 }
+
+#Error404 {
+    margin-left: -130px;
+    margin-bottom: -70px;
+}
