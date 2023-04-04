@@ -116,7 +116,9 @@ SB Admin Page 마무리
 
 ## 11일차
 - 프론트엔드 실습
-    - 
+    - Do it! HTML+CSS+자바스크립트 웹 표준의 정석 실습 예제
+
+<img src="https://raw.githubusercontent.com/kim333333d/basic-html-2023/main/image/day11_practice.png" width="700"> 
 
 ## 12일차
 - 프론트엔드 실습
